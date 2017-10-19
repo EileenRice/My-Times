@@ -2,7 +2,10 @@
 
 header {
   display: flex;
-  color: MediumAquamarine;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  color: mediumaquamarine;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
@@ -11,17 +14,10 @@ header {
 
 .logo {
   display: flex;
-  align-itmes: center;
+  align-items: center;
   flex-grow: 1;
   padding-left: 30px;
   padding-bottom: 10px;
-}
-
-.mytimes {
-  display: flex;
-  aling-items: center;
-  padding-top: 19px;
-  padding-left: 8px;
 }
 
 .headline {
@@ -30,7 +26,29 @@ header {
   font-weight: bold;
   font-size: 40px;
   color: white;
+}
 
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+body {
+  margin: 0;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.logo img {
+  width: 70px;
+  height: 60px;
+  margin-right: 12px;
+}
+/* left off here with rough first edits */
+
+header nav {
+  padding-right: 40px;
 }
 
 .nav1 {
